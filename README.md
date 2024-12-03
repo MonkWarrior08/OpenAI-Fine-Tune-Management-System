@@ -24,24 +24,10 @@ This project provides a script to manage OpenAI fine-tuned models. It includes f
 
 3. **Set the OpenAI API Key**
 
-   You'll need to set your OpenAI API key as an environment variable. Replace `YOUR_API_KEY` with your actual API key.
+   You'll need to set your OpenAI API key to the `main.py`. Replace `YOUR_API_KEY` with your actual API key.
 
-   - On **Linux/macOS**:
-
-     ```bash
-     export OPENAI_API_KEY="YOUR_API_KEY"
-     ```
-
-   - On **Windows (Command Prompt)**:
-
-     ```cmd
-     set OPENAI_API_KEY="YOUR_API_KEY"
-     ```
-
-   - On **Windows (PowerShell)**:
-
-     ```powershell
-     $env:OPENAI_API_KEY="YOUR_API_KEY"
+     ```python
+     os.environ["OPENAI_API_KEY"] = "your_api_key_here"
      ```
 
 4. **Run the Script**
