@@ -43,9 +43,6 @@ This project provides a script to manage OpenAI fine-tuned models. It includes f
 - **Remove Fine-Tuned Model**: Deletes specific fine-tuned models.
 - **List Fine-Tuned Models**: Lists all remaining fine-tuned models.
 
-## Contributions
-
-Contributions to improve and enhance the script are welcome. Feel free to fork the repository and submit a pull request.
 
 ## License
 
